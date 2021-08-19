@@ -1,0 +1,25 @@
+{
+    "name": "SMS Bot.",
+    "description": "A fake SMS sender Bot.",
+    "repository": "https://github.com/jainamoswal/otp-scam",
+    "logo": "https://github.com/jainamoswal/Dogs-Bot/blob/main/Assets/Profile.jpg?raw=true",
+    "keywords": ["Python", "Telegram", "OTP", "SMS"],
+    "env": {
+        "API_ID": {
+          "description": "API ID from my.telegram.org/auth.",
+          "value": "eg. 3900713"
+        },
+        "API_HASH": {
+          "description": "API HASH from my.telegram.org/auth.",
+          "value": "eg. U795a291w9Svf9cmnwH2GF2pnJA98K2B"
+        },
+        "BOT_TOKEN": {
+          "description": "Enter your Bot token which you got from @botfather.",
+          "value": "eg. 5985020205:8j68m91hQqnST3ULl7q3367c7c0zu6mf3L8"
+        },
+        "MAX": {
+          "description": "Max words for sending the OTP. Best is 20 or 30",
+          "value": "30"
+        }
+      }
+  }
